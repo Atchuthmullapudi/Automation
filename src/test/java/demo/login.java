@@ -12,9 +12,7 @@ public class login {
 	public static void initialize() {
 		 driver = new ChromeDriver();
 		// driver.get("https://www.google.com");
-		 System.out.println("Navigated to google");
-		
-		 
+		 System.out.println("Initialized the browser");
 	}
 	
 	@Test(priority=2)
